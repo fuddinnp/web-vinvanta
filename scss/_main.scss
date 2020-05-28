@@ -1,0 +1,239 @@
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 30px 60px;
+    align-items: center;
+
+
+}
+
+.hero-section {
+    background-image: url('../images/hero.png');
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-menu-desktop {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        color: white;
+        list-style: none;
+        padding: 0px;
+        margin-bottom: 0;
+
+        li {
+            margin-right: 20px;
+        }
+    }
+
+    .demo-img {
+        margin-left: 5px;
+    }
+}
+
+
+.landing-container {
+    width: 1180px;
+    margin: 0 auto;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+
+.scalable-landing-heading {
+    font-size: 42px;
+    margin-top: 80px;
+
+    span {
+        color: #FF283C;
+    }
+}
+
+
+
+.discover-analyze-protect {
+    margin-top: 170px;
+    position: relative;
+    padding-left: 100px;
+
+    .discover-path-img {
+        background-image: url(../images/discover-path.svg);
+        position: absolute;
+        height: 100%;
+        width: 100vh;
+        left: -63px;
+        z-index: 1;
+    }
+
+
+
+    .scalable-heading-image {
+
+        position: relative;
+
+        .img-pos-0 {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+
+    }
+
+
+
+    .discover-analyze-protect-heading {
+        font-size: 28px;
+        color: #4C4C4C;
+    }
+
+    .discover-analyze-protect-text {
+        font-size: 18px;
+        color: #4C4C4C;
+        padding: 0px 165px 0px 56px;
+    }
+
+}
+
+
+.discover-analyze-protect-box {
+
+    margin-top: 70px;
+}
+
+.big-text-box {
+    font-size: 54px;
+
+    span {
+        color: #FF283C;
+    }
+
+}
+
+
+.how-protect-container {
+    margin-top: 100px;
+}
+
+.protection-two-col-box {
+
+display: flex;
+margin-top: 70px;
+
+
+.protection-img-box {
+    width: 200px;
+}
+
+.protection-text-box {
+    flex: 1;
+    font-size: 20px;
+}
+
+}
+
+
+.left-img-protection {
+
+    .protection-img-box {
+        margin-right: 40px;
+    }
+
+}
+.right-img-protection {
+
+    .protection-img-box {
+        margin-left: 40px;
+    }
+
+}
+
+.theme-red {
+    color: #FF283C;
+}
+
+
+.enter-vinventa-container {
+    margin-top: 100px;
+}
+.enter-vinventa-heading {
+    font-size: 42px;
+}
+
+.enter-vinventa-text-box {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.enter-dashboard {
+    margin-top: 50px;
+}
+
+
+.benefits-business-heading {
+    font-size: 42px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+
+.business-bullets {
+
+    list-style: none;
+    padding: 10px 50px;
+
+    li {
+        margin-bottom: 20px;
+        font-size: 18px;
+        position: relative;
+    }
+    li:before {
+        content: url(../images/red-plus.svg);
+        position: absolute;
+        left: -30px;
+        /* top: 3PX; */
+        margin-top: 2px;
+    
+    }
+
+
+}
+
+.landing-feature-margin {
+    margin-top: 50px;
+}
+.landing-feature-box {
+
+    display: flex;
+    flex-direction: column;
+
+
+    .landing-feature-box-icon {
+
+    }
+
+
+    .landing-feature-box-heading {
+        font-size: 24px;
+        color: #4C4C4C;
+        margin-top: 5px;
+    }
+
+    .landing-feature-box-text {
+
+        margin-top: 10px;
+        color: #4C4C4C;
+    }
+
+
+}

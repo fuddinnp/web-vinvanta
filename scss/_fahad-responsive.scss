@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+    .header-menu-desktop {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    header,
+    .nav-bg-change {
+        padding: 10px 16px;
+
+    }
+
+    .logo {
+        text-align: right;
+        width: 100%;
+    }
+}
