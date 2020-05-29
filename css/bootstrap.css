@@ -8279,7 +8279,8 @@ ol > li:before {
   font-size: 16px !important; }
 
 .contact-form-section {
-  display: flex; }
+  display: flex;
+  margin-top: 150px; }
   .contact-form-section .cf-left-home {
     padding-right: 115px; }
 
