@@ -8234,7 +8234,13 @@ a .menu-img {
   width: 24px; }
 
 .home-discover-porject-section {
-  display: flex; }
+  display: flex;
+  position: relative;
+  margin-top: 200px; }
+  .home-discover-porject-section .trangle-img {
+    position: absolute;
+    right: -97px;
+    top: -80px; }
 
 ol {
   counter-reset: item;

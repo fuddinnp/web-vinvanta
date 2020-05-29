@@ -432,6 +432,14 @@ a {
 
 .home-discover-porject-section {
     display: flex;
+    position: relative;
+    margin-top: 200px;
+
+    .trangle-img {
+        position: absolute;
+        right: -97px;
+        top: -80px;
+    }
 }
 
 ol {
