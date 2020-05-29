@@ -42,7 +42,7 @@ header {
 .landing-container {
     width: 1180px;
     margin: 0 auto;
-    border: 1px solid;
+    // border: 1px solid;
     overflow: hidden;
 }
 
@@ -124,18 +124,18 @@ header {
 
 .protection-two-col-box {
 
-display: flex;
-margin-top: 70px;
+    display: flex;
+    margin-top: 70px;
 
 
-.protection-img-box {
-    width: 200px;
-}
+    .protection-img-box {
+        width: 200px;
+    }
 
-.protection-text-box {
-    flex: 1;
-    font-size: 20px;
-}
+    .protection-text-box {
+        flex: 1;
+        font-size: 20px;
+    }
 
 }
 
@@ -147,6 +147,7 @@ margin-top: 70px;
     }
 
 }
+
 .right-img-protection {
 
     .protection-img-box {
@@ -163,6 +164,7 @@ margin-top: 70px;
 .enter-vinventa-container {
     margin-top: 100px;
 }
+
 .enter-vinventa-heading {
     font-size: 42px;
 }
@@ -197,13 +199,14 @@ margin-top: 70px;
         font-size: 18px;
         position: relative;
     }
+
     li:before {
         content: url(../images/red-plus.svg);
         position: absolute;
         left: -30px;
         /* top: 3PX; */
         margin-top: 2px;
-    
+
     }
 
 
@@ -212,15 +215,14 @@ margin-top: 70px;
 .landing-feature-margin {
     margin-top: 50px;
 }
+
 .landing-feature-box {
 
     display: flex;
     flex-direction: column;
 
 
-    .landing-feature-box-icon {
-
-    }
+    .landing-feature-box-icon {}
 
 
     .landing-feature-box-heading {
