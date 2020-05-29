@@ -7874,12 +7874,74 @@ header {
   .big-text-box span {
     color: #FF283C; }
 
+.how-protect-container {
+  margin-top: 100px; }
+
 .protection-two-col-box {
-  display: flex; }
+  display: flex;
+  margin-top: 70px; }
   .protection-two-col-box .protection-img-box {
     width: 200px; }
   .protection-two-col-box .protection-text-box {
-    flex: 1; }
+    flex: 1;
+    font-size: 20px; }
+
+.left-img-protection .protection-img-box {
+  margin-right: 40px; }
+
+.right-img-protection .protection-img-box {
+  margin-left: 40px; }
+
+.theme-red {
+  color: #FF283C; }
+
+.enter-vinventa-container {
+  margin-top: 100px; }
+
+.enter-vinventa-heading {
+  font-size: 42px; }
+
+.enter-vinventa-text-box {
+  width: 380px;
+  display: flex;
+  flex-direction: column; }
+
+.enter-dashboard {
+  margin-top: 50px; }
+
+.benefits-business-heading {
+  font-size: 42px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 80px; }
+
+.business-bullets {
+  list-style: none;
+  padding: 10px 50px; }
+  .business-bullets li {
+    margin-bottom: 20px;
+    font-size: 18px;
+    position: relative; }
+  .business-bullets li:before {
+    content: url(../images/red-plus.svg);
+    position: absolute;
+    left: -30px;
+    /* top: 3PX; */
+    margin-top: 2px; }
+
+.landing-feature-margin {
+  margin-top: 50px; }
+
+.landing-feature-box {
+  display: flex;
+  flex-direction: column; }
+  .landing-feature-box .landing-feature-box-heading {
+    font-size: 24px;
+    color: #4C4C4C;
+    margin-top: 5px; }
+  .landing-feature-box .landing-feature-box-text {
+    margin-top: 10px;
+    color: #4C4C4C; }
 
 .header-menu-desktop {
   z-index: 99999; }
@@ -8168,6 +8230,10 @@ a .menu-img {
 
 .menu-btn img {
   width: 24px; }
+
+.home-discover-porject-section {
+  display: flex;
+  flex-direction: column; }
 
 @media screen and (max-width: 767px) {
   .header-menu-desktop {
