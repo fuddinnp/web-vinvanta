@@ -7918,7 +7918,7 @@ header {
   list-style: none;
   padding: 10px 50px; }
   .business-bullets li {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 18px;
     position: relative; }
   .business-bullets li:before {
@@ -8540,6 +8540,12 @@ input:focus ~ .highlight {
     margin: 0px; }
 
 @media screen and (max-width: 767px) {
+  .landing-container {
+    width: 100%; }
+
+  .hero-section {
+    height: 400px; }
+
   .header-menu-desktop {
     display: none; }
 
@@ -8552,6 +8558,71 @@ input:focus ~ .highlight {
 
   .logo {
     text-align: right;
-    width: 100%; } }
+    width: 100%; }
+
+  .scalable-landing-heading {
+    font-size: 36px;
+    margin-top: 50px;
+    padding: 20px; }
+
+  .discover-analyze-protect {
+    padding-left: 30px;
+    margin-top: 15px; }
+    .discover-analyze-protect .discover-analyze-protect-text {
+      padding: 0px; }
+    .discover-analyze-protect .discover-path-img {
+      left: -133px; }
+
+  .big-text-box {
+    font-size: 36px;
+    padding: 20px; }
+
+  .protection-two-col-box {
+    flex-direction: column; }
+
+  .protection-two-col-box {
+    flex-direction: column; }
+    .protection-two-col-box .protection-text-box {
+      padding: 20px; }
+
+  .left-img-protection .protection-img-box {
+    margin-right: 0px;
+    text-align: center;
+    margin: 0px auto; }
+    .left-img-protection .protection-img-box img {
+      margin: 15px 0px; }
+
+  .enter-dashboard img {
+    width: 100%; }
+
+  .landing-feature-box {
+    text-align: center;
+    padding: 20px; }
+
+  .contact-form-section {
+    flex-direction: column; }
+    .contact-form-section .cf-left-home {
+      padding-right: 0px; }
+    .contact-form-section .contact-form {
+      padding: 20px; }
+      .contact-form-section .contact-form .contact-col-1,
+      .contact-form-section .contact-form .contact-col-2 {
+        width: 100%; }
+        .contact-form-section .contact-form .contact-col-1 select,
+        .contact-form-section .contact-form .contact-col-2 select {
+          position: inherit; }
+
+  .submit-form-btn {
+    width: 100%; }
+
+  .home-discover-porject-section {
+    flex-direction: column; }
+    .home-discover-porject-section ol {
+      padding-right: 0px; }
+      .home-discover-porject-section ol li {
+        font-size: 20px !important; }
+
+  .order-div .protection-img-box {
+    order: 2; } }
 
 /*# sourceMappingURL=bootstrap.css.map */

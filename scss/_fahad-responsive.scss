@@ -1,4 +1,12 @@
 @media screen and (max-width: 767px) {
+    .landing-container {
+        width: 100%;
+    }
+
+    .hero-section {
+        height: 400px;
+    }
+
     .header-menu-desktop {
         display: none;
     }
@@ -16,5 +24,108 @@
     .logo {
         text-align: right;
         width: 100%;
+    }
+
+    .scalable-landing-heading {
+        font-size: 36px;
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .discover-analyze-protect {
+        padding-left: 30px;
+        margin-top: 15px;
+
+        .discover-analyze-protect-text {
+            padding: 0px;
+        }
+
+        .discover-path-img {
+            left: -133px;
+        }
+    }
+
+    .big-text-box {
+        font-size: 36px;
+        padding: 20px;
+    }
+
+    .protection-two-col-box {
+        flex-direction: column;
+    }
+
+    .protection-two-col-box {
+        flex-direction: column;
+
+        .protection-text-box {
+            padding: 20px;
+        }
+    }
+
+    .left-img-protection {
+        .protection-img-box {
+            margin-right: 0px;
+            text-align: center;
+            margin: 0px auto;
+
+            img {
+                margin: 15px 0px;
+            }
+        }
+    }
+
+    .enter-dashboard {
+        img {
+            width: 100%;
+        }
+    }
+
+    .landing-feature-box {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .contact-form-section {
+        flex-direction: column;
+
+        .cf-left-home {
+            padding-right: 0px;
+        }
+
+        .contact-form {
+            padding: 20px;
+
+            .contact-col-1,
+            .contact-col-2 {
+                width: 100%;
+
+                select {
+                    position: inherit;
+                }
+            }
+        }
+
+    }
+
+    .submit-form-btn {
+        width: 100%;
+    }
+
+    .home-discover-porject-section {
+        flex-direction: column;
+
+        ol {
+            padding-right: 0px;
+
+            li {
+                font-size: 20px !important;
+            }
+        }
+    }
+
+    .order-div {
+        .protection-img-box {
+            order: 2;
+        }
     }
 }
