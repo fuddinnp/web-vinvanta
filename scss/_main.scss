@@ -2,9 +2,10 @@ header {
     position: fixed;
     width: 100%;
     display: flex;
-    padding: 30px 60px;
+    padding: 10px 60px;
     align-items: center;
-
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
 
 }
 
@@ -14,6 +15,14 @@ header {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+
+.above-path {
+    position: relative;
+    z-index: 3;
 }
 
 .header-menu-desktop {
@@ -42,8 +51,9 @@ header {
 .landing-container {
     width: 1180px;
     margin: 0 auto;
+    position: relative;
     // border: 1px solid;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 
@@ -58,31 +68,63 @@ header {
 
 
 
+.discover-path-img {
+    background-image: url(../images/line.png);
+    position: absolute;
+    height: 2055px;
+    width: 1599px;
+    right: -87vh;
+    z-index: 1;
+    top: 254px;
+
+
+    &::after {
+        content: "";
+        border: 0px !important;
+        position: fixed;
+        display: block;
+        background: #ecedf2;
+        bottom: 0px;
+    
+        /* bottom: 0px; */
+        height: 80px;
+        width: 100%;
+        bottom: 150px;
+      }
+      &::before {
+        content: "";
+        border: 0px !important;
+        position: fixed;
+        display: block;
+        background:#ecedf2;
+    
+        /* bottom: 0px; */
+        height: 150px;
+        width: 100%;
+        bottom: 0px;
+    
+    
+      }
+      
+}
+
+
+
 .discover-analyze-protect {
     margin-top: 170px;
     position: relative;
     padding-left: 100px;
 
-    .discover-path-img {
-        background-image: url(../images/discover-path.svg);
-        position: absolute;
-        height: 100%;
-        width: 100vh;
-        left: -63px;
-        z-index: 1;
-    }
+   
 
 
 
     .scalable-heading-image {
 
         position: relative;
+        height: 140px;
 
-        .img-pos-0 {
-            position: absolute;
-            left: 0;
-            top: 0;
-        }
+       
 
 
     }
@@ -106,6 +148,8 @@ header {
 .discover-analyze-protect-box {
 
     margin-top: 70px;
+    position: relative;
+    margin-bottom: 60px;
 }
 
 .big-text-box {
@@ -195,7 +239,7 @@ header {
     padding: 10px 50px;
 
     li {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         font-size: 18px;
         position: relative;
     }
@@ -239,3 +283,56 @@ header {
 
 
 }
+
+
+
+
+
+.triangle1 {
+    position: absolute;
+    left: -3px;
+    transform: rotate(22deg);
+    -webkit-animation: rotating 12s linear infinite;
+    -moz-animation: rotating 12s linear infinite;
+    -ms-animation: rotating 12s linear infinite;
+    -o-animation: rotating 12s linear infinite;
+    animation: rotating 12s linear infinite;
+}
+.triangle2 {
+    position: absolute;
+    transform: rotate(-20deg);
+    -webkit-animation: inverse-rotating 12s linear infinite;
+    -moz-animation: inverse-rotating 12s linear infinite;
+    -ms-animation: inverse-rotating 12s linear infinite;
+    -o-animation: inverse-rotating 12s linear infinite;
+    animation: inverse-rotating 12s linear infinite;
+}
+
+
+
+
+
+.shield-1 {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+}
+.shield-2 {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+}
+
+
+.circle-1 {
+    position: absolute;
+    top: 60px;
+    left: 25px;
+}
+.circle-2 {
+    position: absolute;
+    top: 60px;
+    left: 25px;
+}
+
+
