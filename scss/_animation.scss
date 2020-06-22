@@ -129,22 +129,7 @@ body {
 
 
 
-.full-width-object-left {
-    width: 100vh;
-    position: absolute;
-    left: 50%;
-    margin-left: -50vw;
-}
 
-
-.full-width-object-left-shape {
-
-  display: flex;
-  position: absolute;
-  left: 0vh;
-  top: 300px;
-  background-repeat: no-repeat;
-}
 
 
    
@@ -430,23 +415,23 @@ body {
 
 
 .circle-1-anim{
-  animation: circle-1-anim linear 2s;
+  animation: circle-1-anim linear 12s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   animation-fill-mode:forwards; /*when the spec is finished*/
-  -webkit-animation: circle-1-anim linear 2s;
+  -webkit-animation: circle-1-anim linear 12s;
   -webkit-animation-iteration-count: infinite;
   -webkit-transform-origin: 50% 50%;
   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
-  -moz-animation: circle-1-anim linear 2s;
+  -moz-animation: circle-1-anim linear 12s;
   -moz-animation-iteration-count: infinite;
   -moz-transform-origin: 50% 50%;
   -moz-animation-fill-mode:forwards; /*FF 5+*/
-  -o-animation: circle-1-anim linear 2s;
+  -o-animation: circle-1-anim linear 12s;
   -o-animation-iteration-count: infinite;
   -o-transform-origin: 50% 50%;
   -o-animation-fill-mode:forwards; /*Not implemented yet*/
-  -ms-animation: circle-1-anim linear 2s;
+  -ms-animation: circle-1-anim linear 12s;
   -ms-animation-iteration-count: infinite;
   -ms-transform-origin: 50% 50%;
   -ms-animation-fill-mode:forwards; /*IE 10+*/
@@ -521,23 +506,23 @@ body {
 
 
 .circle-2-anim{
-  animation: circle-2-anim linear 2s;
+  animation: circle-2-anim linear 12s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   animation-fill-mode:forwards; /*when the spec is finished*/
-  -webkit-animation: circle-2-anim linear 2s;
+  -webkit-animation: circle-2-anim linear 12s;
   -webkit-animation-iteration-count: infinite;
   -webkit-transform-origin: 50% 50%;
   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
-  -moz-animation: circle-2-anim linear 2s;
+  -moz-animation: circle-2-anim linear 12s;
   -moz-animation-iteration-count: infinite;
   -moz-transform-origin: 50% 50%;
   -moz-animation-fill-mode:forwards; /*FF 5+*/
-  -o-animation: circle-2-anim linear 2s;
+  -o-animation: circle-2-anim linear 12s;
   -o-animation-iteration-count: infinite;
   -o-transform-origin: 50% 50%;
   -o-animation-fill-mode:forwards; /*Not implemented yet*/
-  -ms-animation: circle-2-anim linear 2s;
+  -ms-animation: circle-2-anim linear 12s;
   -ms-animation-iteration-count: infinite;
   -ms-transform-origin: 50% 50%;
   -ms-animation-fill-mode:forwards; /*IE 10+*/
@@ -667,23 +652,23 @@ body {
 
 
 .shield-1-anim{
-  animation: shield-1 linear 2s;
+  animation: shield-1 linear 12s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   animation-fill-mode:forwards; /*when the spec is finished*/
-  -webkit-animation: shield-1 linear 2s;
+  -webkit-animation: shield-1 linear 12s;
   -webkit-animation-iteration-count: infinite;
   -webkit-transform-origin: 50% 50%;
   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
-  -moz-animation: shield-1 linear 2s;
+  -moz-animation: shield-1 linear 12s;
   -moz-animation-iteration-count: infinite;
   -moz-transform-origin: 50% 50%;
   -moz-animation-fill-mode:forwards; /*FF 5+*/
-  -o-animation: shield-1 linear 2s;
+  -o-animation: shield-1 linear 12s;
   -o-animation-iteration-count: infinite;
   -o-transform-origin: 50% 50%;
   -o-animation-fill-mode:forwards; /*Not implemented yet*/
-  -ms-animation: shield-1 linear 2s;
+  -ms-animation: shield-1 linear 12s;
   -ms-animation-iteration-count: infinite;
   -ms-transform-origin: 50% 50%;
   -ms-animation-fill-mode:forwards; /*IE 10+*/
@@ -692,23 +677,23 @@ body {
 
 
 .shield-2-anim{
-  animation: shield-2 linear 2s;
+  animation: shield-2 linear 12s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   animation-fill-mode:forwards; /*when the spec is finished*/
-  -webkit-animation: shield-2 linear 2s;
+  -webkit-animation: shield-2 linear 12s;
   -webkit-animation-iteration-count: infinite;
   -webkit-transform-origin: 50% 50%;
   -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
-  -moz-animation: shield-2 linear 2s;
+  -moz-animation: shield-2 linear 12s;
   -moz-animation-iteration-count: infinite;
   -moz-transform-origin: 50% 50%;
   -moz-animation-fill-mode:forwards; /*FF 5+*/
-  -o-animation: shield-2 linear 2s;
+  -o-animation: shield-2 linear 12s;
   -o-animation-iteration-count: infinite;
   -o-transform-origin: 50% 50%;
   -o-animation-fill-mode:forwards; /*Not implemented yet*/
-  -ms-animation: shield-2 linear 2s;
+  -ms-animation: shield-2 linear 12s;
   -ms-animation-iteration-count: infinite;
   -ms-transform-origin: 50% 50%;
   -ms-animation-fill-mode:forwards; /*IE 10+*/
@@ -773,3 +758,51 @@ body {
     -ms-transform:  translate(-49px,-1px)  ;
   }
 }
+
+
+
+
+
+@keyframes circle {
+  from {
+    -webkit-clip-path: circle(0%);
+    clip-path: circle(0%);
+  }
+  to {
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%);
+  }
+}
+
+
+@keyframes circle-reverse {
+  from {
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%);
+    visibility: visible;
+  }
+  to {
+    -webkit-clip-path: circle(0%);
+    clip-path: circle(0%);
+    visibility: hidden;
+  }
+}
+
+
+
+
+.circle-clip.was-in-viewport {
+
+  animation: 1s  circle-reverse;
+
+}
+
+
+
+.circle-clip.in-viewport {
+  animation: 10s  circle !important;
+  animation-delay: 2s;
+}
+
+
+

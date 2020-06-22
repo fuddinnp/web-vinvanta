@@ -69,13 +69,14 @@ header {
 
 
 .discover-path-img {
-    background-image: url(../images/line.png);
+    background-image: url(../images/line2.png);
     position: absolute;
     height: 2055px;
-    width: 1599px;
-    right: -87vh;
+    width: 100%;
+    right: -465px;
     z-index: 1;
     top: 254px;
+    background-repeat: no-repeat;
 
 
     &::after {
@@ -147,9 +148,9 @@ header {
 
 .discover-analyze-protect-box {
 
-    margin-top: 70px;
+    margin-top: 50px;
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 44px;
 }
 
 .big-text-box {
@@ -261,9 +262,14 @@ header {
 }
 
 .landing-feature-box {
+    transition: transform 300ms linear;
+        &:hover{
+              transform: scale(1.1);   
+                }
 
     display: flex;
     flex-direction: column;
+
 
 
     .landing-feature-box-icon {}
@@ -292,20 +298,20 @@ header {
     position: absolute;
     left: -3px;
     transform: rotate(22deg);
-    -webkit-animation: rotating 12s linear infinite;
-    -moz-animation: rotating 12s linear infinite;
-    -ms-animation: rotating 12s linear infinite;
-    -o-animation: rotating 12s linear infinite;
-    animation: rotating 12s linear infinite;
+    -webkit-animation: rotating 45s linear infinite;
+    -moz-animation: rotating 45s linear infinite;
+    -ms-animation: rotating 45s linear infinite;
+    -o-animation: rotating 45s linear infinite;
+    animation: rotating 45s linear infinite;
 }
 .triangle2 {
     position: absolute;
     transform: rotate(-20deg);
-    -webkit-animation: inverse-rotating 12s linear infinite;
-    -moz-animation: inverse-rotating 12s linear infinite;
-    -ms-animation: inverse-rotating 12s linear infinite;
-    -o-animation: inverse-rotating 12s linear infinite;
-    animation: inverse-rotating 12s linear infinite;
+    -webkit-animation: inverse-rotating 45s linear infinite;
+    -moz-animation: inverse-rotating 45s linear infinite;
+    -ms-animation: inverse-rotating 45s linear infinite;
+    -o-animation: inverse-rotating 45s linear infinite;
+    animation: inverse-rotating 45s linear infinite;
 }
 
 
@@ -336,3 +342,26 @@ header {
 }
 
 
+
+.full-width-object-left {
+    width: 100vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -50vw;
+    top: 5%;
+    
+  }
+  
+  .full-width-object-left-shape {
+
+   
+    display: flex;  
+    position: absolute;
+    left: -50%;
+    top:0%;
+    background-repeat: no-repeat;
+  }
+
+
+
+  

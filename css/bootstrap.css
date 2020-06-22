@@ -7849,13 +7849,14 @@ header {
     color: #FF283C; }
 
 .discover-path-img {
-  background-image: url(../images/line.png);
+  background-image: url(../images/line2.png);
   position: absolute;
   height: 2055px;
-  width: 1599px;
-  right: -87vh;
+  width: 100%;
+  right: -465px;
   z-index: 1;
-  top: 254px; }
+  top: 254px;
+  background-repeat: no-repeat; }
   .discover-path-img::after {
     content: "";
     border: 0px !important;
@@ -7894,9 +7895,9 @@ header {
     padding: 0px 165px 0px 56px; }
 
 .discover-analyze-protect-box {
-  margin-top: 70px;
+  margin-top: 50px;
   position: relative;
-  margin-bottom: 60px; }
+  margin-bottom: 44px; }
 
 .big-text-box {
   font-size: 54px; }
@@ -7962,8 +7963,11 @@ header {
   margin-top: 50px; }
 
 .landing-feature-box {
+  transition: transform 300ms linear;
   display: flex;
   flex-direction: column; }
+  .landing-feature-box:hover {
+    transform: scale(1.1); }
   .landing-feature-box .landing-feature-box-heading {
     font-size: 24px;
     color: #4C4C4C;
@@ -7976,20 +7980,20 @@ header {
   position: absolute;
   left: -3px;
   transform: rotate(22deg);
-  -webkit-animation: rotating 12s linear infinite;
-  -moz-animation: rotating 12s linear infinite;
-  -ms-animation: rotating 12s linear infinite;
-  -o-animation: rotating 12s linear infinite;
-  animation: rotating 12s linear infinite; }
+  -webkit-animation: rotating 45s linear infinite;
+  -moz-animation: rotating 45s linear infinite;
+  -ms-animation: rotating 45s linear infinite;
+  -o-animation: rotating 45s linear infinite;
+  animation: rotating 45s linear infinite; }
 
 .triangle2 {
   position: absolute;
   transform: rotate(-20deg);
-  -webkit-animation: inverse-rotating 12s linear infinite;
-  -moz-animation: inverse-rotating 12s linear infinite;
-  -ms-animation: inverse-rotating 12s linear infinite;
-  -o-animation: inverse-rotating 12s linear infinite;
-  animation: inverse-rotating 12s linear infinite; }
+  -webkit-animation: inverse-rotating 45s linear infinite;
+  -moz-animation: inverse-rotating 45s linear infinite;
+  -ms-animation: inverse-rotating 45s linear infinite;
+  -o-animation: inverse-rotating 45s linear infinite;
+  animation: inverse-rotating 45s linear infinite; }
 
 .shield-1 {
   position: absolute;
@@ -8010,6 +8014,20 @@ header {
   position: absolute;
   top: 60px;
   left: 25px; }
+
+.full-width-object-left {
+  width: 100vh;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  top: 5%; }
+
+.full-width-object-left-shape {
+  display: flex;
+  position: absolute;
+  left: -50%;
+  top: 0%;
+  background-repeat: no-repeat; }
 
 body {
   background-color: #ecedf2 !important; }
@@ -8713,19 +8731,6 @@ body {
   /* margin-right: -95vw; */
   /* height: 100px; */ }
 
-.full-width-object-left {
-  width: 100vh;
-  position: absolute;
-  left: 50%;
-  margin-left: -50vw; }
-
-.full-width-object-left-shape {
-  display: flex;
-  position: absolute;
-  left: 0vh;
-  top: 300px;
-  background-repeat: no-repeat; }
-
 .holder {
   width: 70px;
   height: 70px;
@@ -8923,27 +8928,27 @@ body {
   100% {
     -ms-transform: translate(0px, 2px); } }
 .circle-1-anim {
-  animation: circle-1-anim linear 2s;
+  animation: circle-1-anim linear 12s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   animation-fill-mode: forwards;
   /*when the spec is finished*/
-  -webkit-animation: circle-1-anim linear 2s;
+  -webkit-animation: circle-1-anim linear 12s;
   -webkit-animation-iteration-count: infinite;
   -webkit-transform-origin: 50% 50%;
   -webkit-animation-fill-mode: forwards;
   /*Chrome 16+, Safari 4+*/
-  -moz-animation: circle-1-anim linear 2s;
+  -moz-animation: circle-1-anim linear 12s;
   -moz-animation-iteration-count: infinite;
   -moz-transform-origin: 50% 50%;
   -moz-animation-fill-mode: forwards;
   /*FF 5+*/
-  -o-animation: circle-1-anim linear 2s;
+  -o-animation: circle-1-anim linear 12s;
   -o-animation-iteration-count: infinite;
   -o-transform-origin: 50% 50%;
   -o-animation-fill-mode: forwards;
   /*Not implemented yet*/
-  -ms-animation: circle-1-anim linear 2s;
+  -ms-animation: circle-1-anim linear 12s;
   -ms-animation-iteration-count: infinite;
   -ms-transform-origin: 50% 50%;
   -ms-animation-fill-mode: forwards;
@@ -8985,27 +8990,27 @@ body {
   100% {
     -ms-transform: translate(-1px, -1px); } }
 .circle-2-anim {
-  animation: circle-2-anim linear 2s;
+  animation: circle-2-anim linear 12s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   animation-fill-mode: forwards;
   /*when the spec is finished*/
-  -webkit-animation: circle-2-anim linear 2s;
+  -webkit-animation: circle-2-anim linear 12s;
   -webkit-animation-iteration-count: infinite;
   -webkit-transform-origin: 50% 50%;
   -webkit-animation-fill-mode: forwards;
   /*Chrome 16+, Safari 4+*/
-  -moz-animation: circle-2-anim linear 2s;
+  -moz-animation: circle-2-anim linear 12s;
   -moz-animation-iteration-count: infinite;
   -moz-transform-origin: 50% 50%;
   -moz-animation-fill-mode: forwards;
   /*FF 5+*/
-  -o-animation: circle-2-anim linear 2s;
+  -o-animation: circle-2-anim linear 12s;
   -o-animation-iteration-count: infinite;
   -o-transform-origin: 50% 50%;
   -o-animation-fill-mode: forwards;
   /*Not implemented yet*/
-  -ms-animation: circle-2-anim linear 2s;
+  -ms-animation: circle-2-anim linear 12s;
   -ms-animation-iteration-count: infinite;
   -ms-transform-origin: 50% 50%;
   -ms-animation-fill-mode: forwards;
@@ -9082,54 +9087,54 @@ body {
   100% {
     -ms-transform: translate(0px, 1px); } }
 .shield-1-anim {
-  animation: shield-1 linear 2s;
+  animation: shield-1 linear 12s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   animation-fill-mode: forwards;
   /*when the spec is finished*/
-  -webkit-animation: shield-1 linear 2s;
+  -webkit-animation: shield-1 linear 12s;
   -webkit-animation-iteration-count: infinite;
   -webkit-transform-origin: 50% 50%;
   -webkit-animation-fill-mode: forwards;
   /*Chrome 16+, Safari 4+*/
-  -moz-animation: shield-1 linear 2s;
+  -moz-animation: shield-1 linear 12s;
   -moz-animation-iteration-count: infinite;
   -moz-transform-origin: 50% 50%;
   -moz-animation-fill-mode: forwards;
   /*FF 5+*/
-  -o-animation: shield-1 linear 2s;
+  -o-animation: shield-1 linear 12s;
   -o-animation-iteration-count: infinite;
   -o-transform-origin: 50% 50%;
   -o-animation-fill-mode: forwards;
   /*Not implemented yet*/
-  -ms-animation: shield-1 linear 2s;
+  -ms-animation: shield-1 linear 12s;
   -ms-animation-iteration-count: infinite;
   -ms-transform-origin: 50% 50%;
   -ms-animation-fill-mode: forwards;
   /*IE 10+*/ }
 
 .shield-2-anim {
-  animation: shield-2 linear 2s;
+  animation: shield-2 linear 12s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
   animation-fill-mode: forwards;
   /*when the spec is finished*/
-  -webkit-animation: shield-2 linear 2s;
+  -webkit-animation: shield-2 linear 12s;
   -webkit-animation-iteration-count: infinite;
   -webkit-transform-origin: 50% 50%;
   -webkit-animation-fill-mode: forwards;
   /*Chrome 16+, Safari 4+*/
-  -moz-animation: shield-2 linear 2s;
+  -moz-animation: shield-2 linear 12s;
   -moz-animation-iteration-count: infinite;
   -moz-transform-origin: 50% 50%;
   -moz-animation-fill-mode: forwards;
   /*FF 5+*/
-  -o-animation: shield-2 linear 2s;
+  -o-animation: shield-2 linear 12s;
   -o-animation-iteration-count: infinite;
   -o-transform-origin: 50% 50%;
   -o-animation-fill-mode: forwards;
   /*Not implemented yet*/
-  -ms-animation: shield-2 linear 2s;
+  -ms-animation: shield-2 linear 12s;
   -ms-animation-iteration-count: infinite;
   -ms-transform-origin: 50% 50%;
   -ms-animation-fill-mode: forwards;
@@ -9170,5 +9175,27 @@ body {
     -ms-transform: translate(-21px, -26px); }
   100% {
     -ms-transform: translate(-49px, -1px); } }
+@keyframes circle {
+  from {
+    -webkit-clip-path: circle(0%);
+    clip-path: circle(0%); }
+  to {
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%); } }
+@keyframes circle-reverse {
+  from {
+    -webkit-clip-path: circle(100%);
+    clip-path: circle(100%);
+    visibility: visible; }
+  to {
+    -webkit-clip-path: circle(0%);
+    clip-path: circle(0%);
+    visibility: hidden; } }
+.circle-clip.was-in-viewport {
+  animation: 1s  circle-reverse; }
+
+.circle-clip.in-viewport {
+  animation: 10s  circle !important;
+  animation-delay: 2s; }
 
 /*# sourceMappingURL=bootstrap.css.map */
