@@ -445,6 +445,7 @@ a {
 .home-discover-porject-section {
     display: flex;
     position: relative;
+    margin-bottom: 100px !important;
     margin-top: 200px;
 
 
@@ -810,7 +811,8 @@ input:focus~.highlight {
 
 .footer-section {
     background: #f1f1f5;
-    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     position: relative;
     z-index: 10;
 
@@ -831,7 +833,7 @@ input:focus~.highlight {
     border-top: 1px solid #b3b3b1;
     text-align: center;
     padding: 15px;
-    margin-top: 15px;
+    // margin-top: 15px;
     position: relative;
     z-index: 10;
 

@@ -1,4 +1,8 @@
 @media screen and (max-width: 767px) {
+    .landing-container {
+        width: 100%;
+    }
+
     .header-menu-desktop {
         display: none;
     }
@@ -17,4 +21,49 @@
         text-align: right;
         width: 100%;
     }
+
+    .hero-section {
+        height: 233px;
+    }
+
+    .scalable-landing-heading {
+        font-size: 34px;
+        margin-top: 40px;
+        padding: 20px !important;
+    }
+
+    .full-width-object-left {
+        display: none;
+    }
+
+    .above-path {
+        .row {
+            flex-direction: column;
+
+            .col-5,
+            .col-7 {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .discover-analyze-protect-box {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 20px;
+
+    }
+
+    .discover-analyze-protect {
+        margin-top: 10px;
+        position: relative;
+        padding-left: 5px;
+    }
+
+    .discover-analyze-protect .discover-analyze-protect-text {
+        font-size: 18px;
+        color: #4C4C4C;
+        padding: 0px 0px 0px 0px;
+    }
+
 }

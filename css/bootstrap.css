@@ -7943,7 +7943,8 @@ header {
   font-size: 42px;
   text-align: center;
   width: 100%;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  margin-top: 80px; }
 
 .business-bullets {
   list-style: none;
@@ -8018,7 +8019,7 @@ header {
 .full-width-object-left {
   width: 100vh;
   position: absolute;
-  left: 50%;
+  left: 35%;
   margin-left: -50vw;
   top: 5%; }
 
@@ -8333,6 +8334,7 @@ a .menu-img {
 .home-discover-porject-section {
   display: flex;
   position: relative;
+  margin-bottom: 100px !important;
   margin-top: 200px; }
 
 ol {
@@ -8615,7 +8617,8 @@ input:focus ~ .highlight {
 
 .footer-section {
   background: #f1f1f5;
-  padding-top: 15px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   position: relative;
   z-index: 10; }
   .footer-section .footer-contact-info-div {
@@ -8630,7 +8633,6 @@ input:focus ~ .highlight {
   border-top: 1px solid #b3b3b1;
   text-align: center;
   padding: 15px;
-  margin-top: 15px;
   position: relative;
   z-index: 10; }
   .footerbar p {
@@ -8642,6 +8644,9 @@ input:focus ~ .highlight {
     right: 300px;
     /* top: -80px; */ } }
 @media screen and (max-width: 767px) {
+  .landing-container {
+    width: 100%; }
+
   .header-menu-desktop {
     display: none; }
 
@@ -8654,7 +8659,39 @@ input:focus ~ .highlight {
 
   .logo {
     text-align: right;
-    width: 100%; } }
+    width: 100%; }
+
+  .hero-section {
+    height: 233px; }
+
+  .scalable-landing-heading {
+    font-size: 34px;
+    margin-top: 40px;
+    padding: 20px !important; }
+
+  .full-width-object-left {
+    display: none; }
+
+  .above-path .row {
+    flex-direction: column; }
+    .above-path .row .col-5,
+    .above-path .row .col-7 {
+      max-width: 100%; }
+
+  .discover-analyze-protect-box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px; }
+
+  .discover-analyze-protect {
+    margin-top: 10px;
+    position: relative;
+    padding-left: 5px; }
+
+  .discover-analyze-protect .discover-analyze-protect-text {
+    font-size: 18px;
+    color: #4C4C4C;
+    padding: 0px 0px 0px 0px; } }
 body {
   overflow-x: hidden; }
 
