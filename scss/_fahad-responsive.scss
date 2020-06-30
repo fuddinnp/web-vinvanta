@@ -66,4 +66,150 @@
         padding: 0px 0px 0px 0px;
     }
 
+    .big-text-box {
+        font-size: 35px;
+        padding: 20px;
+    }
+
+    .protection-two-col-box {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .how-protect-container {
+        [data-aos^="fade"][data-aos^="fade"].aos-animate {
+            transform: inherit;
+        }
+    }
+
+    .enter-dashboard {
+        img {
+            width: 100%;
+            padding: 20px;
+        }
+    }
+
+    .how-protect-container {
+        margin-top: 10px;
+    }
+
+    .left-img-protection,
+    .right-img-protection {
+        .protection-img-box {
+            margin-bottom: 30px;
+            margin-left: 0px;
+        }
+    }
+
+    .right-img-protection {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .protection-two-col-box {
+        margin-top: 15px;
+    }
+
+    .enter-vinventa-container {
+        padding: 20px;
+        margin-top: 20px;
+
+        .enter-vinventa-text-box {
+            width: 100%;
+        }
+    }
+
+    .benefits-business-heading {
+        font-size: 38px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .business-bullets {
+        list-style: none;
+        padding: 0px 50px;
+    }
+
+    .business-six-boxs {
+        padding: 20px;
+
+        .col-lg-4 {
+            margin-bottom: 30px;
+
+            :last-child {
+                margin-bottom: 0px;
+            }
+        }
+
+        .mt-5 {
+            margin-top: 0rem !important;
+        }
+    }
+
+    .landing-feature-margin {
+        margin-top: 0px;
+    }
+
+    .contact-form-section {
+        flex-direction: column;
+        margin-top: 0px;
+
+        .col-4 {
+            max-width: 100% !important;
+            margin-top: 0px;
+        }
+
+        .cf-right-home {
+            max-width: 100% !important;
+        }
+    }
+
+    .home-discover-porject-section {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 30px !important;
+
+        .row-full {
+            right: -134px;
+        }
+
+        ol {
+            padding-right: 0px;
+            padding-top: 20px;
+
+            li {
+                margin: 10px 0;
+                font-size: 20px !important;
+            }
+        }
+    }
+
+    .footer-contact-info-div {
+        margin-top: 20px;
+    }
+
+
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+
 }
