@@ -8749,6 +8749,9 @@ input:focus ~ .highlight {
     .business-six-boxs .mt-5 {
       margin-top: 0rem !important; }
 
+  .submit-button-row input {
+    width: 100%; }
+
   .landing-feature-margin {
     margin-top: 0px; }
 
